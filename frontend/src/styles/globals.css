@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.triangle-style {
+  @apply text-gray-400 text-sm mr-1 ml-2;
+}
+
+.sidebar-folder {
+  @apply flex items-center gap-1;
+}
